@@ -9,6 +9,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { TagsComponent } from './tags/tags.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodPageComponent } from './food-page/food-page.component';
 //import { RatingModule } from 'ng-starrating';
 
 
@@ -19,7 +21,9 @@ import { TagsComponent } from './tags/tags.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    TagsComponent
+    TagsComponent,
+    CartPageComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,
