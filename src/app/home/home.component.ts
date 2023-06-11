@@ -12,9 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class HomeComponent implements OnInit{
   foods:Foods[] = [];
-  constructor(private fs: FoodService, private router:ActivatedRoute){
-      
-  }
+  constructor(private fs: FoodService, private router:ActivatedRoute){}
 
   ngOnInit(): void{
     this.router.params.subscribe(params => {

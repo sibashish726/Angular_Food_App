@@ -95,3 +95,21 @@ ul .remove:hover{
     content: 'Total Price: ';
     color: gray;
  }
+
+ .checkout a{
+    padding: 1rem;
+    color: white;
+    background-color: rgb(93, 100, 235);
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: block;
+    width: 99%;
+    text-align: center;
+    border-radius: 5rem;
+ }
+
+ .checkout a:hover{
+    color: rgb(93, 100, 235);;
+    background-color: rgb(196, 196, 196);
+    font-weight: bold;
+ }
