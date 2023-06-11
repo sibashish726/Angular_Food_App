@@ -6,12 +6,12 @@ header{
 }
 
 a{
-    color: rgb(179, 179, 179);
+    color: rgb(255, 255, 255);
 }
 a:hover{
     filter: brightness(120%);
     -webkit-filter: brightness(120%);
-    color: rgb(255, 255, 255);
+    color: rgb(216, 216, 216);
    
 }
 
@@ -25,6 +25,7 @@ a:hover{
 a.logo{
     font-family: 'Titillium Web', sans-serif;
     padding: 1em;
+    font-size: 1.5rem;
 }
 
 nav ul{
@@ -33,6 +34,7 @@ nav ul{
 }
 
 nav ul li a{
+  font-size: 1.5rem;
   padding:  1em;
   display: inline-block;
   font-family: 'Titillium Web', sans-serif;

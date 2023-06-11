@@ -38,6 +38,13 @@ export class CartPageComponent {
       this.setCart();
     }
 
+    checkOut():void {
+      if(confirm('Are you sure to checkout?')){
+        this.cart.items=[];
+        // this.cart.totalPrice=0;
+      }
+    }
+
 }
 
 
