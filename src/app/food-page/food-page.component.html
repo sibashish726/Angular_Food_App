@@ -19,6 +19,6 @@
         <span>Time to cook <strong>{{food.cookTime}}</strong> minutes</span>
     </div>
     <div class="price"> {{food.price|currency:"INR":"symbol"}}</div>
-    <button>Add to cart</button>
+    <button (click)="addToCart()">Add to cart</button>
   </div>
 </div>
